@@ -631,3 +631,7 @@ PRODUCT_PACKAGES += \
     libbacktrace.vndk-sp\
     libunwind.vndk-sp\
     liblzma.vndk-sp\
+
+# Enable tethering
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.tethering.noprovisioning=true
